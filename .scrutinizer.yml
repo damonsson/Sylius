@@ -1,5 +1,7 @@
 build:
   image: default-bionic
+  environment:
+        php: 8.3.13
   nodes:
     analysis:
       tests:
