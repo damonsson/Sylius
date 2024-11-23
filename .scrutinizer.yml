@@ -3,6 +3,7 @@ build:
   environment:
         php: 8.3.13
         node: 20.18.1
+        idle_timeout: 900
   nodes:
     analysis:
       tests:
