@@ -7,5 +7,6 @@ build:
     analysis:
       tests:
         override:
-          - php-scrutinizer-run
-            idle_timeout: 900
+          - command: php-scrutinizer-run
+            idle_timeout: 1000
+
